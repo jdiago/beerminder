@@ -5,4 +5,6 @@ Beerminder::Application.routes.draw do
 
   resources :beers
 
+  root to: 'home#index'
+
 end
